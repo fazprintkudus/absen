@@ -586,7 +586,7 @@
             <div class="grid grid-cols-2 gap-3">
               <div>
                 <label class="form-label">Jam Buka Absen</label>
-                <input type="time" id="setting-jam-buka" class="form-input" value="07:45" />
+                <input type="time" id="setting-jam-buka" class="form-input" value="07:50" />
               </div>
               <div>
                 <label class="form-label">Jam Tutup Absen</label>
@@ -777,7 +777,7 @@ const save = (key, val) => { try { localStorage.setItem(key, JSON.stringify(val)
 const DEFAULT_GAS_URL = 'https://script.google.com/macros/s/AKfycby8OPXF9AzApw7WaLLo3f_Qyp-ftnM7jiNO9JhSyXokdgwdMrNUlV55_2TUkK6qnfqn1w/exec';
 let settings = load('fazprint_settings', {
   gasUrl: DEFAULT_GAS_URL,
-  jamBukaAbsen: '07:45',
+  jamBukaAbsen: '07:50',
   jamTutupAbsen: '21:30',
   jamKerjaMulai: '08:00',
   jamKerjaSelesai: '21:00',
